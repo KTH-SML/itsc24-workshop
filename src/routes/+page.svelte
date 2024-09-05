@@ -1,21 +1,18 @@
 <div class="min-h-full">
-    <div class="bg-blue-500 pb-32">
+    <div class="bg-sky-700 pb-32">
         <nav class="navbar bg-base-100">
             <div class="flex-1">
-                <a class="btn btn-ghost text-xl">Small-Scale CAVs @ ITSC24</a>
+                <a class="btn btn-ghost text-xl">Small-Scale CAVs</a>
             </div>
-            <div class="flex-none">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>About</a></li>
-                    <li><a>Program</a></li>
-                    <li><a>Contact</a></li>
-                </ul>    
+            <div class="grow"/>
+            <div class="flex-1">
+                <a class="btn btn-ghost text-xl">&lt;Second&gt;</a>
             </div>
         </nav>
       <header class="py-10">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 class="text-3xl font-bold tracking-tight text-white">Small-Scale Testbeds for Connected and Automated Vehicles in Research and Education</h1>
-          <h2 class="text-xl font-bold tracking-tight text-white">&lt;Venue&gt;</h2>
+          <h2 class="text-xl font-bold tracking-tight text-white">at IEEE ITSC 2024</h2>
         </div>
       </header>
     </div>
@@ -25,7 +22,7 @@
         <div class="rounded-lg bg-white px-5 py-6 shadow sm:px-6">
             
             <div class="pb-10 px-2 flex">
-                <p class="grow text-center"><b>Date: </b>&lt;Date&gt;</p>
+                <p class="grow text-center"><b>Date: </b>September 24, 2024 </p>
                 <p class="grow text-center"><b>Room: </b>&lt;Room&gt;</p>
             </div>
 
