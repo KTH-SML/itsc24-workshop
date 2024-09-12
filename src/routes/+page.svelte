@@ -120,22 +120,18 @@
                         <p>Opening Remarks</p>
                     </ProgramTableEntry>
 
-                    <ProgramTableEntry time="13:30 - 14:00">
+                    <ProgramTableEntry time="13:30 - 14:30">
                         <Speaker
                             name="Lavanya Sayam" affiliation="IEEE National Transportation Data & Analytics Solutions"
                             title="IEEE NTDAS: Driving global roadways research with real-world vehicle data analytics platform"
-                            abstract="IEEE’s National Transportation Data and Analytics Solution is a powerful platform that provides a unique, robust, and high-quality transportation dataset combined with advanced analytics tools, enabling valuable insights to empower academic research and instruction. Equipped with 5 min granularity data for speed and travel time, for both trucks and passenger vehicles, the NTDAS supports a multitude of use cases across domains whether it be in logistics / supply chain, freight research, urban studies and planning, sustainability, equity, safety, environment, urban and rural dynamics, and many others. This session speaks to the impactful ways NTDAS can be incorporated into research and teaching, with specific use case examples relevant to the global audience."/>
+                            abstract="IEEE's National Transportation Data and Analytics Solution is a powerful platform that provides a unique, robust, and high-quality transportation dataset combined with advanced analytics tools, enabling valuable insights to empower academic research and instruction. Equipped with 5 min granularity data for speed and travel time, for both trucks and passenger vehicles, the NTDAS supports a multitude of use cases across domains whether it be in logistics / supply chain, freight research, urban studies and planning, sustainability, equity, safety, environment, urban and rural dynamics, and many others. This session speaks to the impactful ways NTDAS can be incorporated into research and teaching, with specific use case examples relevant to the global audience."/>
                     </ProgramTableEntry>
-                    
-                    <ProgramTableEntry time="14:00 - 14:30">
+
+                    <ProgramTableEntry time="14:30 - 15:00">
                         <Speaker
                             name="Yunchen Ge and Marcelo Contreras Cabrera" affiliation="University of Alberta"
                             title="Development a Digital Twin Visualizer for Intelligent Transportation Applications"
                             abstract="A high-definition (HD) digital twin framework, which provides a real-time and realistic visualization of multi-modal perception required for state estimation, navigation, and decision-making for autonomous driving, will be discussed and presented in this talk. We will introduce a perception system utilizing synchronized sensing data, the process to generate frame transformations to construct accurate HD maps for navigation in dynamic environments, and a framework to readily customize essential map elements such as road features and static landmarks. Application of the visualizer for localization tasks will also be demonstrated."/>
-                    </ProgramTableEntry>
-
-                    <ProgramTableEntry time="14:30 - 15:00">
-                        <p>Coffee Break</p>
                     </ProgramTableEntry>
 
                     <ProgramTableEntry time="15:00 - 15:30">
@@ -146,13 +142,17 @@
                     </ProgramTableEntry>
 
                     <ProgramTableEntry time="15:30 - 16:00">
+                        <p>Coffee Break</p>
+                    </ProgramTableEntry>
+
+                    <ProgramTableEntry time="16:00 - 16:30">
                         <Speaker
                             name="Randy Goebel and Shahin Atakishiyev" affiliation="University of Alberta"
                             title="Robustness Analysis of Interactive Explanations for Traffic Scene Understanding: Implications for Trust in Autonomous Driving"
                             />
                     </ProgramTableEntry>
-                    
-                    <ProgramTableEntry time="16:00 - 16:45">
+
+                    <ProgramTableEntry time="16:30 - 17:15">
                         <p><b>Panel Discussion</b></p>
                         <p>Moderated by Ehsan Hashemi</p>
                     </ProgramTableEntry>
