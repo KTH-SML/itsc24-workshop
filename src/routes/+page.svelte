@@ -25,7 +25,7 @@
 
         <Section title="Abstract">
             <div class="overflow-hidden">
-                <div class="aspect-square w-full pb-4 sm:float-right sm:w-1/2 sm:pl-4 lg:w-1/3 lg:pl-6 lg:pb-6">
+                <div class="aspect-square w-full pb-4 sm:float-right sm:w-1/2 sm:pl-4 lg    :w-1/3 lg:pl-6 lg:pb-6">
                     <img class="object-cover rounded shadow" src="svea.jpeg" alt="Small-Scale vehicle under testing">
                 </div>
                 <p class="text-justify pb-3">The growing importance of Connected and Automated Vehicles (CAVs) calls for innovative platforms to develop, test, and validate new algorithms and technologies. Small-scale testbeds offer an effective means to prototype and experiment with close to real-world conditions. Furthermore, these platforms tend to be powerful research demonstrators that motivate collaborations within and outside academia. However, these testbeds present unique challenges in terms of accessibility, reproducibility, and integration into educational frameworks. To better approach these challenges, this workshop aims to facilitate discussions on learnings and best practices. In particular, the workshop focuses on addressing these issues with an emphasis on leveraging small-scale testbeds for research and education.</p>
@@ -105,7 +105,7 @@
 
         <Section title="Abstract">
             <div class="overflow-hidden">
-                <div class="w-1/3 aspect-square pl-6 pb-6 float-right">
+                <div class="aspect-square w-full pb-4 sm:float-right sm:w-1/2 sm:pl-4 lg    :w-1/3 lg:pl-6 lg:pb-6">
                     <img class="object-cover rounded shadow" src="smart-mobility.jpg" alt="Futuristic city with AI-connected roads">
                 </div>
                 <p class="text-justify pb-3">The workshop focuses on the transformative potential of artificial intelligence and advanced decision-making technologies in modern transportation. As urban environments evolve and demand smarter mobility solutions, this workshop will explore how AI, data analytics, and intelligent systems can enhance traffic management, road safety, and autonomous driving.</p>
