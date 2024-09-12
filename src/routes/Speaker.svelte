@@ -6,7 +6,7 @@
 </script>
 
 <div>
-    <p class="text-base italic pb-2">{title}</p>
+    <p class="text-base pb-2">{title}</p>
     <p><b>{name}</b> ({affiliation})</p>
     {#if abstract.length > 0}
     <p class="mt-2">{abstract}</p>
