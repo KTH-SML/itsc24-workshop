@@ -25,7 +25,7 @@
 
         <Section title="Abstract">
             <div class="overflow-hidden">
-                <div class="w-1/3 aspect-square pl-6 pb-6 float-right">
+                <div class="aspect-square w-full pb-4 sm:float-right sm:w-1/2 sm:pl-4 lg:w-1/3 lg:pl-6 lg:pb-6">
                     <img class="object-cover rounded shadow" src="svea.jpeg" alt="Small-Scale vehicle under testing">
                 </div>
                 <p class="text-justify pb-3">The growing importance of Connected and Automated Vehicles (CAVs) calls for innovative platforms to develop, test, and validate new algorithms and technologies. Small-scale testbeds offer an effective means to prototype and experiment with close to real-world conditions. Furthermore, these platforms tend to be powerful research demonstrators that motivate collaborations within and outside academia. However, these testbeds present unique challenges in terms of accessibility, reproducibility, and integration into educational frameworks. To better approach these challenges, this workshop aims to facilitate discussions on learnings and best practices. In particular, the workshop focuses on addressing these issues with an emphasis on leveraging small-scale testbeds for research and education.</p>
@@ -35,7 +35,7 @@
         <Section title="Program">
             <div class="overflow-x-auto">
                 <ProgramTable>
-                    <ProgramTableEntry time="08:50 - 09:00">
+                    <ProgramTableEntry time="08:50 - 09:00" vertical={false}>
                         <p>Opening Remarks</p>
                     </ProgramTableEntry>
 
@@ -53,7 +53,7 @@
                             abstract="This talk will present our Cyber-Physical Mobility Lab (CPM Lab), an open-source, remotely accessible platform for Connected and Automated Vehicles (CAVs) focusing on multi-agent decision-making. The CPM Lab provides a deterministic computation model that allows for reproducible experiments. Using its digital twin, it can seamlessly extend its 20 small-scale vehicles (µCars) with virtual µCars. We created a research and teaching stack around the CPM Lab: undergraduate students study programming in the CPM Academy, graduate students study coordination and control of CAVs, and researchers compete in the CPM Olympics. The CPM Lab is one of the pioneering testbeds for CAVs and has been rebuilt at other universities, establishing its influence in academic settings."/>
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="10:00 - 10:15">
+                    <ProgramTableEntry time="10:00 - 10:15" vertical={false}>
                         <p>Coffee Break</p>
                     </ProgramTableEntry>
                     
@@ -71,7 +71,7 @@
                             abstract="As the demand for Connected and Automated Vehicles (CAVs) continues to rise, scalable, cost-effective platforms like small-scale testbeds are becoming increasingly crucial for prototyping, testing, and refining CAV technologies. This talk will present the SVEA platform, an open-source, small-scale testbed designed for evaluating novel automation techniques and V2X use-cases. Drawing from real-world experiences, the presentation will highlight how the SVEA platform has been used in recent experiments with industrial partners. In addition, the platform has served as an educational platform for teaching automatic control. With these experiences, the talk will cover how to lead collaborative industrial projects, opportunities for innovation, and pathways for future industry-academic partnerships while using the platform in education."/>
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="11:15 - 12:00">
+                    <ProgramTableEntry time="11:15 - 12:00" vertical={false}>
                         <p><b>Panel Discussion</b></p>
                         <p>Moderated by Jonas Mårtensson</p>
                     </ProgramTableEntry>
@@ -116,7 +116,7 @@
         <Section title="Program">
             <div class="overflow-x-auto">
                 <ProgramTable>
-                    <ProgramTableEntry time="13:20 - 13:30">
+                    <ProgramTableEntry time="13:20 - 13:30" vertical={false}>
                         <p>Opening Remarks</p>
                     </ProgramTableEntry>
 
@@ -141,7 +141,7 @@
                             abstract="Reinforcement learning (RL) is a popular method for solving complex decision-making tasks, particularly when the full problem is unknown at design time. However, RL agents learning from scratch may require much more data than is readily available. In this talk, we will discuss how planning, control methods, and human intervention can be leveraged to quickly learn high-quality control polices that can outperform other methods, and how such methods could be applied to problems in autonomous driving."/>
                     </ProgramTableEntry>
 
-                    <ProgramTableEntry time="15:30 - 16:00">
+                    <ProgramTableEntry time="15:30 - 16:00" vertical={false}>
                         <p>Coffee Break</p>
                     </ProgramTableEntry>
 
@@ -152,7 +152,7 @@
                             />
                     </ProgramTableEntry>
 
-                    <ProgramTableEntry time="16:30 - 17:15">
+                    <ProgramTableEntry time="16:30 - 17:15" vertical={false}>
                         <p><b>Panel Discussion</b></p>
                         <p>Moderated by Ehsan Hashemi</p>
                     </ProgramTableEntry>

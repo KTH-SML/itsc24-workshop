@@ -1,5 +1,9 @@
 <table class="table">
-    <thead><tr><th>Time</th> <th>Event</th></tr></thead>
+    <thead>
+        <tr>
+            <th>Time / Event</th>
+        </tr>
+    </thead>
     <tbody>
         <slot/>
     </tbody>
