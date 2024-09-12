@@ -1,123 +1,53 @@
+<script>
+    import Theme from "./Theme.svelte"
+    import FirstTheme from "./FirstTheme.svelte"
+    import SecondTheme from "./SecondTheme.svelte"
+
+    //@ts-ignore
+    function scrollToTarget(event) {
+        event.preventDefault();
+        const link = event.currentTarget;
+        const anchorId = new URL(link.href).hash.replace('#', '')
+        const anchor = document.getElementById(anchorId);
+        const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 0;
+        console.log(anchor.offsetTop - navbarHeight);
+        window.scrollTo({
+            top: anchor.offsetTop - navbarHeight,
+            behavior: 'smooth'
+        })
+    }
+</script>
+
 <div class="min-h-full">
-    <div class="bg-sky-700 pb-32">
-        <nav class="navbar bg-base-100">
-            <div class="flex-1">
-                <a class="btn btn-ghost text-xl">Small-Scale CAVs</a>
-            </div>
-            <div class="grow"/>
-            <div class="flex-1">
-                <a class="btn btn-ghost text-xl">&lt;Second&gt;</a>
-            </div>
-        </nav>
-      <header class="py-10">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 class="text-3xl font-bold tracking-tight text-white">Small-Scale Testbeds for Connected and Automated Vehicles in Research and Education</h1>
-          <h2 class="text-xl font-bold tracking-tight text-white">at IEEE ITSC 2024</h2>
+    <nav class="navbar sticky top-0 bg-white z-[1100] flex justify-center">
+        <div class="hidden sm:flex sm:grow">
+            <a href="https://ieee-itsc.org/2024"
+               class="btn btn-ghost text-xl">IEEE ITSC 2024</a>
         </div>
-      </header>
-    </div>
-  
-    <main class="-mt-32">
-      <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div class="rounded-lg bg-white px-5 py-6 shadow sm:px-6">
-            
-            <div class="pb-10 px-2 flex">
-                <p class="grow text-center"><b>Date: </b>September 24, 2024 </p>
-                <p class="grow text-center"><b>Room: </b>&lt;Room&gt;</p>
-            </div>
-
-            <div class="pb-2">
-                <div class="border-b border-gray-200 pb-3">
-                    <h2 class="text-base font-semibold leading-6 text-2xl text-gray-900">Abstract</h2>
-                </div>
-                <div class="py-6 px-2">
-                    <p>The growing importance of Connected and Automated Vehicles (CAVs) calls for innovative platforms to develop, test, and validate new algorithms and technologies. Small-scale testbeds offer an effective means to prototype and experiment with close to real-world conditions. Furthermore, these platforms tend to be powerful research demonstrators that motivate collaborations within and outside academia. However, these testbeds present unique challenges in terms of accessibility, reproducibility, and integration into educational frameworks. To better approach these challenges, this workshop aims to facilitate discussions on learnings and best practices. In particular, the workshop focuses on addressing these issues with an emphasis on leveraging small-scale testbeds for research and education.</p>
-                </div>    
-            </div>
-
-            <div class="pb-2">
-                <div class="border-b border-gray-200 pb-3">
-                    <h2 class="text-base font-semibold leading-6 text-2xl text-gray-900">Program</h2>
-                </div>
-                <div class="py-6 px-2">
-                    <div class="overflow-x-auto">
-                        <table class="table">
-                            <!-- head -->
-                            <thead>
-                            <tr>
-                                <th>Time</th>
-                                <th>Event</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <!-- row 0 -->
-                            <tr>
-                                <td>08:50 - 09:00</td>
-                                <td>Opening Remarks</td>
-                            </tr>
-                            <!-- row 1 -->
-                            <tr>
-                                <td class="whitespace-nowrap">09:00 - 09:30</td>
-                                <td><b>Speaker 1 - Jianye Xu</b><br>
-                                    Cyber-Physical Mobility Lab: An Open-Source Testbed for Connected and Automated Vehicles</td>
-                            </tr>
-                            <!-- row 2 -->
-                            <tr>
-                                <td class="whitespace-nowrap">09:30 - 10:00</td>
-                                <td><b>Speaker 2 - Rahul Mangharam</b><br>
-                                    F1Tenth and Multi-Agent Dynamic Games</td>
-                            </tr>
-                            <!-- row 3 -->
-                            <tr>
-                                <td class="whitespace-nowrap">10:00 - 10:15</td>
-                                <td>Coffee Break</td>
-                            </tr>
-                            <!-- row 4 -->
-                            <tr>
-                                <td class="whitespace-nowrap">10:15 - 10:45</td>
-                                <td><b>Speaker 3 - Andreas Malikopoulos</b><br>
-                                    &lt;Overview of IDL Lab&gt;</td>
-                            </tr>
-                            <!-- row 5 -->
-                            <tr>
-                                <td class="whitespace-nowrap">10:45 - 11:15</td>
-                                <td><b>Speaker 4 - Kaj Munhoz Arfvidsson</b><br>
-                                    &lt;SVEA, education and industrial collaborations&gt;</td>
-                            </tr>
-                            <!-- row 6 -->
-                            <tr>
-                                <td class="whitespace-nowrap">11:15 - 12:00</td>
-                                <td><b>Panel Discussion</b><br>
-                                    Moderated by Jonas Mårtensson</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pb-2">
-                <div class="border-b border-gray-200 pb-3">
-                    <h2 class="text-base font-semibold leading-6 text-2xl text-gray-900">Contact</h2>
-                </div>
-                <div class="py-6 px-2 grid place-items-center">
-                    
-                    <div class="flex items-center">
-                        <div class="avatar">
-                            <div class="w-16 rounded">
-                                <img src="https://www.kth.se/files/avatar/kajarf" />
-                            </div>
-                        </div>
-                        <div class="ml-3">
-                        <p class="text-l font-medium text-gray-700 group-hover:text-gray-900">Kaj Munhoz Arfvidsson</p>
-                        <p class="text-xs font-medium text-gray-500 group-hover:text-gray-700">KTH Royal Institute of Technology</p>
-                        <p class="text-xs font-medium text-gray-500 group-hover:text-gray-700">kajarf@kth.se</p>
-                    </div>
-                </div>
-            </div>
-
+        <div>
+            <a href="#small-scale" on:click={scrollToTarget}
+               class="btn btn-ghost text-xl">Small-Scale CAVs</a>
         </div>
-      </div>
-    </main>
-  </div>
+        <div class="divider divider-horizontal"/>
+        <div>
+            <a href="#smart-mobility" on:click={scrollToTarget}
+               class="btn btn-ghost text-xl">Smart Mobility</a>
+        </div>
+    </nav>
+    
+    <Theme 
+        id="small-scale"
+        title="Small-Scale Testbeds for Connected and Automated Vehicles in Research and Education"
+        subtitle="at IEEE ITSC 2024">
+            <FirstTheme/>
+    </Theme>
+
+    <Theme
+        id="smart-mobility"
+        title="Smart Mobility: AI and Intelligent Decision-Making for Future Transportation Systems"
+        subtitle="at IEEE ITSC 2024">
+            <SecondTheme/>
+    </Theme>
+
+</div>
   
