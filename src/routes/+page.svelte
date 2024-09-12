@@ -28,7 +28,7 @@
                 <div class="w-1/3 aspect-square pl-6 pb-6 float-right">
                     <img class="object-cover rounded shadow" src="svea.jpeg" alt="Small-Scale vehicle under testing">
                 </div>
-                <p class="text-justify">The growing importance of Connected and Automated Vehicles (CAVs) calls for innovative platforms to develop, test, and validate new algorithms and technologies. Small-scale testbeds offer an effective means to prototype and experiment with close to real-world conditions. Furthermore, these platforms tend to be powerful research demonstrators that motivate collaborations within and outside academia. However, these testbeds present unique challenges in terms of accessibility, reproducibility, and integration into educational frameworks. To better approach these challenges, this workshop aims to facilitate discussions on learnings and best practices. In particular, the workshop focuses on addressing these issues with an emphasis on leveraging small-scale testbeds for research and education.</p>
+                <p class="text-justify pb-3">The growing importance of Connected and Automated Vehicles (CAVs) calls for innovative platforms to develop, test, and validate new algorithms and technologies. Small-scale testbeds offer an effective means to prototype and experiment with close to real-world conditions. Furthermore, these platforms tend to be powerful research demonstrators that motivate collaborations within and outside academia. However, these testbeds present unique challenges in terms of accessibility, reproducibility, and integration into educational frameworks. To better approach these challenges, this workshop aims to facilitate discussions on learnings and best practices. In particular, the workshop focuses on addressing these issues with an emphasis on leveraging small-scale testbeds for research and education.</p>
             </div>
         </Section>
         
@@ -105,8 +105,11 @@
 
         <Section title="Abstract">
             <div class="overflow-hidden">
-                <p class="text-justify">The workshop focuses on the transformative potential of artificial intelligence and advanced decision-making technologies in modern transportation. As urban environments evolve and demand smarter mobility solutions, this workshop will explore how AI, data analytics, and intelligent systems can enhance traffic management, road safety, and autonomous driving.</p>
-                <p class="text-justify">Through a series of expert-led discussions, the workshop will cover topics such as leveraging real-world vehicle data, the development of digital twins for transportation modeling, the integration of reinforcement learning with planning and control systems, and ensuring robustness and trust in AI explanations for autonomous vehicles. Participants will gain insights into the latest advancements in smart mobility, offering a forward-looking view on the future of transportation systems.</p>
+                <div class="w-1/3 aspect-square pl-6 pb-6 float-right">
+                    <img class="object-cover rounded shadow" src="smart-mobility.jpg" alt="Futuristic city with AI-connected roads">
+                </div>
+                <p class="text-justify pb-3">The workshop focuses on the transformative potential of artificial intelligence and advanced decision-making technologies in modern transportation. As urban environments evolve and demand smarter mobility solutions, this workshop will explore how AI, data analytics, and intelligent systems can enhance traffic management, road safety, and autonomous driving.</p>
+                <p class="text-justify pb-3">Through a series of expert-led discussions, the workshop will cover topics such as leveraging real-world vehicle data, the development of digital twins for transportation modeling, the integration of reinforcement learning with planning and control systems, and ensuring robustness and trust in AI explanations for autonomous vehicles. Participants will gain insights into the latest advancements in smart mobility, offering a forward-looking view on the future of transportation systems.</p>
             </div>
         </Section>
         
