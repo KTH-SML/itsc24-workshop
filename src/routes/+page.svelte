@@ -39,14 +39,14 @@
                         <p>Opening Remarks</p>
                     </ProgramTableEntry>
 
-                    <ProgramTableEntry time="10:15 - 10:45">
+                    <ProgramTableEntry time="09:00 - 09:30">
                         <Speaker
                             name="Andreas Malikopoulos" affiliation="Cornell University"
                             title="A Research and Educational Scaled, Smart City Testbed for Real-Time Control of Autonomous Driving Systems"
                             />
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="09:00 - 09:30">
+                    <ProgramTableEntry time="09:30 - 10:00">
                         <Speaker
                             name="Simon Schäfer" affiliation="RWTH Aachen University"
                             title="Cyber-Physical Mobility Lab: An Open-Source Testbed for Connected and Automated Vehicles"
@@ -57,7 +57,7 @@
                         <p>Coffee Break</p>
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="09:30 - 10:00">
+                    <ProgramTableEntry time="10:15 - 10:45">
                         <Speaker
                             name="Simon Thompson" affiliation="TIER IV"
                             title="Autoware Reference Platforms: From Small Scale to Full Scale Autonomous Vehicles"
