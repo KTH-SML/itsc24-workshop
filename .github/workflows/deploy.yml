@@ -30,7 +30,13 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub token
-        run: pnpx gh-pages -d build -t true --nojekyll --user "GitHub Actions <actions@github.com>"
+        run: |
+          pnpx gh-pages \
+            -d build \
+            -t true \
+            --user "GitHub Actions <actions@github.com>" \
+            --repo "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            --nojekyll 
 
       - name: Cleanup
         run: rm -rf build  # Optional: Cleans up the build directory after deployment
