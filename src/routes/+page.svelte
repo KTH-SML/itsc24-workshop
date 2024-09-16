@@ -165,7 +165,7 @@
                 <Contact
                     name="Mohammad H. Mamduhi"
                     affiliation="University of Alberta"
-                    email="mmamduhi@ethz.ch"
+                    email="vahid.mamduhi@gmail.com"
                     image="https://ieee-itsc.org/2024/wp-content/uploads/sites/3/2024/03/Mamduhi-150x150.png"/>
                 <Contact
                     name="Ehsan Hashemi"
