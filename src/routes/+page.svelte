@@ -163,15 +163,15 @@
         <Section title="Organizers">           
             <div class="flex flex-col md:flex-row items-start md:items-center justify-evenly space-y-4 md:space-y-0 md:space-x-8 px-4 mx-auto">
                 <Contact
-                    name="Kaj Munhoz Arfvidsson"
-                    affiliation="KTH Royal Institute of Technology"
-                    email="kajarf@kth.se"
-                    image="https://www.kth.se/files/avatar/kajarf"/>
+                    name="Mohammad H. Mamduhi"
+                    affiliation="University of Alberta"
+                    email="mmamduhi@ethz.ch"
+                    image="https://ieee-itsc.org/2024/wp-content/uploads/sites/3/2024/03/Mamduhi-150x150.png"/>
                 <Contact
                     name="Ehsan Hashemi"
                     affiliation="University of Alberta"
                     email="ehashemi@ualberta.ca"
-                    image="https://apps.ualberta.ca/directory/person/profile_photo/ehashemi"/>
+                    image="https://ieee-itsc.org/2024/wp-content/uploads/sites/3/2024/03/hashemi-768x768.png"/>
             </div>
         </Section>
 
