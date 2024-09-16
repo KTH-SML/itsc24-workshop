@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from 'svelte';
+
     import Nav from "./Nav.svelte";
     import Theme from "./Theme.svelte"
     import Section from "./Section.svelte";
@@ -6,6 +8,24 @@
     import ProgramTable from "./ProgramTable.svelte";
     import ProgramTableEntry from "./ProgramTableEntry.svelte";
     import Speaker from "./Speaker.svelte";
+
+    onMount(() => {
+        // Check if there is a hash in the URL
+        if (window.location.hash) {
+            const element = document.querySelector(window.location.hash);
+            if (element) {
+                const offset = 50; // Adjust this offset as needed
+                const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+
+                // Scroll to the adjusted position with optional smooth scrolling
+                window.scrollTo({
+                    top: elementPosition - offset,
+                    behavior: 'smooth' // Optional: change to 'auto' for instant scroll
+                });
+            }
+        }
+    });
+
 </script>
 
 <div class="min-h-full">
