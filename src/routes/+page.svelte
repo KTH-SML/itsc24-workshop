@@ -122,7 +122,7 @@
 
                     <ProgramTableEntry time="13:30 - 14:30">
                         <Speaker
-                            name="Lavanya Sayam" affiliation="IEEE National Transportation Data & Analytics Solutions"
+                            name="David Goldstein and Lavanya Sayam" affiliation="IEEE National Transportation Data & Analytics Solutions"
                             title="IEEE NTDAS: Driving global roadways research with real-world vehicle data analytics platform"
                             abstract="IEEE's National Transportation Data and Analytics Solution is a powerful platform that provides a unique, robust, and high-quality transportation dataset combined with advanced analytics tools, enabling valuable insights to empower academic research and instruction. Equipped with 5 min granularity data for speed and travel time, for both trucks and passenger vehicles, the NTDAS supports a multitude of use cases across domains whether it be in logistics / supply chain, freight research, urban studies and planning, sustainability, equity, safety, environment, urban and rural dynamics, and many others. This session speaks to the impactful ways NTDAS can be incorporated into research and teaching, with specific use case examples relevant to the global audience."/>
                     </ProgramTableEntry>
