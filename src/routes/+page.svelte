@@ -55,6 +55,10 @@
         <Section title="Program">
             <div class="overflow-x-auto">
                 <ProgramTable>
+                    <ProgramTableEntry time="08:30 - 08:50">
+                        <p>Arrival and Registration</p>
+                    </ProgramTableEntry>
+
                     <ProgramTableEntry time="08:50 - 09:00" vertical={false}>
                         <p>Opening Remarks</p>
                     </ProgramTableEntry>
@@ -73,25 +77,25 @@
                             abstract="This talk will present our Cyber-Physical Mobility Lab (CPM Lab), an open-source, remotely accessible platform for Connected and Automated Vehicles (CAVs) focusing on multi-agent decision-making. The CPM Lab provides a deterministic computation model that allows for reproducible experiments. Using its digital twin, it can seamlessly extend its 20 small-scale vehicles (µCars) with virtual µCars. We created a research and teaching stack around the CPM Lab: undergraduate students study programming in the CPM Academy, graduate students study coordination and control of CAVs, and researchers compete in the CPM Olympics. The CPM Lab is one of the pioneering testbeds for CAVs and has been rebuilt at other universities, establishing its influence in academic settings."/>
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="10:00 - 10:15" vertical={false}>
+                    <ProgramTableEntry time="10:00 - 10:30" vertical={false}>
                         <p>Coffee Break</p>
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="10:15 - 10:45">
+                    <ProgramTableEntry time="10:30 - 11:00">
                         <Speaker
                             name="Simon Thompson" affiliation="TIER IV"
                             title="Autoware Reference Platforms: From Small Scale to Full Scale Autonomous Vehicles"
                             />
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="10:45 - 11:15">
+                    <ProgramTableEntry time="11:00 - 11:30">
                         <Speaker
                             name="Kaj Munhoz Arfvidsson" affiliation="KTH Royal Institute of Technology"
                             title="SVEA and Recent Experiences With Small-Scale Vehicles in Industrial Collaborations"
                             abstract="As the demand for Connected and Automated Vehicles (CAVs) continues to rise, scalable, cost-effective platforms like small-scale testbeds are becoming increasingly crucial for prototyping, testing, and refining CAV technologies. This talk will present the SVEA platform, an open-source, small-scale testbed designed for evaluating novel automation techniques and V2X use-cases. Drawing from real-world experiences, the presentation will highlight how the SVEA platform has been used in recent experiments with industrial partners. In addition, the platform has served as an educational platform for teaching automatic control. With these experiences, the talk will cover how to lead collaborative industrial projects, opportunities for innovation, and pathways for future industry-academic partnerships while using the platform in education."/>
                     </ProgramTableEntry>
                     
-                    <ProgramTableEntry time="11:15 - 12:00" vertical={false}>
+                    <ProgramTableEntry time="11:30 - 12:15" vertical={false}>
                         <p><b>Panel Discussion</b></p>
                         <p>Moderated by Jonas Mårtensson</p>
                     </ProgramTableEntry>
@@ -136,11 +140,11 @@
         <Section title="Program">
             <div class="overflow-x-auto">
                 <ProgramTable>
-                    <ProgramTableEntry time="13:20 - 13:30" vertical={false}>
+                    <ProgramTableEntry time="13:30 - 13:35" vertical={false}>
                         <p>Opening Remarks</p>
                     </ProgramTableEntry>
 
-                    <ProgramTableEntry time="13:30 - 14:30">
+                    <ProgramTableEntry time="13:35 - 14:30">
                         <Speaker
                             name="David Goldstein and Lavanya Sayam" affiliation="IEEE National Transportation Data & Analytics Solutions"
                             title="IEEE NTDAS: Driving global roadways research with real-world vehicle data analytics platform"
