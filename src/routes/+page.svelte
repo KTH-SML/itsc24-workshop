@@ -41,7 +41,7 @@
         title="Small-Scale Testbeds for Connected and Automated Vehicles in Research and Education"
         subtitle="at IEEE ITSC 2024"
         date="September 24, 2024"
-        room="Salon 19">
+        room="Salon 19/20">
 
         <Section title="Abstract">
             <div class="overflow-hidden">
@@ -125,7 +125,7 @@
         title="Smart Mobility: AI and Intelligent Decision-Making for Future Transportation Systems"
         subtitle="at IEEE ITSC 2024"
         date="September 24, 2024"
-        room="Salon 20">
+        room="Salon 19/20">
 
         <Section title="Abstract">
             <div class="overflow-hidden">
