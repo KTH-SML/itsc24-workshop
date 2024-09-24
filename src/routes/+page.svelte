@@ -176,7 +176,15 @@
                             />
                     </ProgramTableEntry>
 
-                    <ProgramTableEntry time="16:30 - 17:15" vertical={false}>
+                    <ProgramTableEntry time="16:30 - 17:00">
+                        <Speaker
+                            name="Harish Chintakunta" affiliation="MathWorks"
+                            title="Developing Scenes and Scenarios in Automated Driving Applications"
+                            abstract="The development of scenes and scenarios plays a crucial role in the design and testing of automated driving applications. This presentation will explore the workflows used to create interoperable scenes and scenarios with commonly used driving simulation tools. We will cover designing scenes, building scenarios from recorded data, and simulating driving applications for early design and testing phases."
+                            />
+                    </ProgramTableEntry>
+
+                    <ProgramTableEntry time="17:00 - 17:30" vertical={false}>
                         <p><b>Panel Discussion</b></p>
                         <p>Moderated by Ehsan Hashemi</p>
                     </ProgramTableEntry>
